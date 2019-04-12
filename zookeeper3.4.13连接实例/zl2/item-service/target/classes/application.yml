@@ -1,0 +1,8 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: items-service
+  cloud:
+    zookeeper:
+      connect-string: 192.168.58.129:2181
